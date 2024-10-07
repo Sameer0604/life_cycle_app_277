@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/design_default_color_surface">
+
+    <TextView
+        android:id="@+id/ActivityC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity C"
+        android:textSize="50dp"
+        android:textColor="@color/dark_blue"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity C occupies the complete window real-estate. The Android OS forces Activity A to be Paused. However, the background thread keeps incrementing the counter..."
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:textColor="@color/dark_green"/>
+
+
+    <Button
+        android:id="@+id/btnFinishC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish C" />
+</LinearLayout>

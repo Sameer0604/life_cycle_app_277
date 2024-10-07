@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Define missing string -->
+    <string name="dialog_text">This is a dialog message.</string>
+    <string name="app_name">Lifecycle App</string>
+    <string name="btn_finish_dialog_label">Finish Dialog</string>
+    <!-- Add other strings if needed -->
+</resources>

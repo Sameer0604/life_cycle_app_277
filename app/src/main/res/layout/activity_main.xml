@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/design_default_color_surface">
+
+    <TextView
+        android:id="@+id/ActivityA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity A"
+        android:textSize="50dp"
+        android:textColor="@color/dark_blue"/>
+    <!-- Display for the Thread Counter -->
+    <TextView
+        android:id="@+id/threadCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thread Counter: 0001"
+        android:textSize="20sp"
+        android:textColor="@color/dark_green"/>
+
+    <!-- Button to Start Activity B -->
+    <Button
+        android:id="@+id/btnStartActivityB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Activity B" />
+
+    <!-- Button to Start Activity C -->
+    <Button
+        android:id="@+id/btnStartActivityC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Activity C" />
+
+    <!-- Button to Show Dialog -->
+    <Button
+        android:id="@+id/btnShowDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dialog" />
+
+    <!-- Button to Close the App -->
+    <Button
+        android:id="@+id/btnCloseApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close App" />
+</LinearLayout>
